@@ -2,7 +2,7 @@ from conexao import criar_conexao, fechar_conexao
 
 
 def select_dados(ade):
-    con = criar_conexao("localhost", "root", "lostawer", "dbextrator")
+    con = criar_conexao("localhost", "root", "xxxxxx", "dbextrator")
     cursor = con.cursor()
 
     cursor.execute(f"""SELECT tb.adesao
